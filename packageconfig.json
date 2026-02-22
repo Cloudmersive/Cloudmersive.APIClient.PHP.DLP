@@ -1,9 +1,9 @@
 ﻿{
-    "artifactVersion": "3.0.2",
+    "artifactVersion": "3.0.0",
     "gitUserId": "Cloudmersive",
     "gitRepoId": "Cloudmersive.APIClient.PHP.Phishing",
     "composerVendorName": "cloudmersive",
-    "composerProjectName": "cloudmersive_phishing_api_client",
-    "packagePath": "cloudmersive_phishing_api_client"
+    "composerProjectName": "cloudmersive_dlp_api_client",
+    "packagePath": "cloudmersive_dlp_api_client"
 
 }
