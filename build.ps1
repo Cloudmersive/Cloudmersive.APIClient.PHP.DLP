@@ -5,7 +5,7 @@ Invoke-WebRequest -Uri 'https://api.cloudmersive.com/dlp/v1/swagger.json' -OutFi
 (Get-Content .\dlp-api-swagger.json).replace('"http"', '"https"') | Set-Content .\dlp-api-swagger.json
 
 
-& java -jar swagger-codegen-cli.jar generate -i .\dlp-api-swagger.json -l php -c packageconfig.json
+& java -jar swagger-codegen-cli-2.4.5.jar generate -i .\dlp-api-swagger.json -l php -c packageconfig.json
 #(Get-Content ./client/package.json).replace('v1', '1.0.1') | Set-Content ./client/package.json
 Copy-Item ./cloudmersive_dlp_api_client/* -Destination . -Recurse -Force
 Remove-Item –path ./cloudmersive_dlp_api_client –recurse

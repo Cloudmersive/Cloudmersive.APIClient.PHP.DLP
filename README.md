@@ -4,7 +4,7 @@ Easily and directly scan and detect sensitive data (PII) in input text.
 [Cloudmersive DLP API](https://cloudmersive.com/dlp-data-loss-prevention-api) allows you to scan input for Personally Identifiable Information (PII), Personal Health Information (PHI), Personal Financial Information and other types of sensitive data.  Advanced AI is used to both detect and redact with next-generation accuracy.
 
 - API version: v1
-- Package version: 3.0.0
+- Package version: 3.0.2
 
 
 ## Requirements
